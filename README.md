@@ -1,4 +1,4 @@
-# 📚 Express Book Reviews API
+#  Express Book Reviews API
 
 A **production-ready RESTful API** built with Node.js and Express for managing book collections and user reviews. This service demonstrates modern backend development practices, JWT authentication, and secure API design patterns for content management systems.
 
@@ -8,11 +8,11 @@ A **production-ready RESTful API** built with Node.js and Express for managing b
 ![REST API](https://img.shields.io/badge/REST-API-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 🚀 Project Overview
+##  Project Overview
 
 This RESTful API implements a **comprehensive book review system** with user authentication, book catalog management, and review functionality. Built following **REST principles** and **secure coding practices**, it's designed for content platforms requiring scalable book and review management.
 
-### 🏗️ **Architecture Highlights**
+###  **Architecture Highlights**
 - **RESTful API Design** - Standard HTTP methods and status codes
 - **JWT Authentication** - Secure token-based user authentication
 - **Session Management** - Express sessions with middleware protection
@@ -20,30 +20,30 @@ This RESTful API implements a **comprehensive book review system** with user aut
 - **In-Memory Storage** - Fast data access with structured book database
 - **Middleware Pipeline** - Authentication and authorization layers
 
-## 📋 Features
+##  Features
 
-### 🔑 **Authentication & Authorization**
+###  **Authentication & Authorization**
 - ✅ **User Registration** with username validation
 - ✅ **JWT Authentication** with session management
 - ✅ **Protected Routes** - Middleware-based access control
 - ✅ **User-Specific Reviews** - Ownership validation for review operations
 - ✅ **Session Security** - Secure session configuration
 
-### 📖 **Book Management**
+###  **Book Management**
 - ✅ **Book Catalog** - Complete book database with metadata
 - ✅ **Search Functionality** - Search by ISBN, author, and title
 - ✅ **Case-Insensitive Search** - Flexible search capabilities
 - ✅ **Review System** - User reviews with CRUD operations
 - ✅ **Promise-Based Operations** - Async/await pattern implementation
 
-### 🛠️ **Technical Features**
+###  **Technical Features**
 - ✅ **RESTful Endpoints** - Standard HTTP methods and responses
 - ✅ **Error Handling** - Comprehensive error responses with status codes
 - ✅ **Input Validation** - Request validation and sanitization
 - ✅ **CORS Support** - Cross-origin request handling
 - ✅ **Development Ready** - Nodemon integration for hot reloading
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 ### **Prerequisites**
 - Node.js 18+ 
@@ -64,7 +64,7 @@ npm start
 
 The API will be available at `http://localhost:5000`
 
-## 📡 API Documentation
+##  API Documentation
 
 ### **Base URL**: `http://localhost:5000`
 
@@ -133,7 +133,7 @@ curl -X DELETE http://localhost:5000/customer/auth/review/9780385472579 \
   -H "Authorization: Bearer <your-jwt-token>"
 ```
 
-## 🏗️ Architecture & Design Patterns
+##  Architecture & Design Patterns
 
 ### **Project Structure**
 ```
@@ -160,7 +160,7 @@ final_project/
 - **User Registry**: In-memory user storage with credentials
 - **Reviews**: User-specific reviews linked to books by ISBN
 
-## 🧪 Testing
+##  Testing
 
 ### **Manual API Testing**
 Test the API endpoints using curl commands or tools like Postman:
@@ -180,7 +180,7 @@ curl -X POST http://localhost:5000/customer/login \
   -d '{"username": "testuser", "password": "testpass"}'
 ```
 
-## �‍💻 About the Developer
+## About the Developer
 
 **Rita Jindal** - Full Stack Developer  
 
